@@ -5,7 +5,7 @@
 
 /* header css style */
 header {
-margin: 30px 150px 20px 150px;
+  margin: 30px 150px 20px 150px;
 }
 nav {
   display: flex;
@@ -63,8 +63,17 @@ nav div h3 {
 .header-img {
   margin-left: 200px;
   background-image: url("/images/circle.jpg");
+  background-repeat: no-repeat;
   padding: 0px 70px;
+  transition: 2.5s;
 }
+.header-img:hover {
+  background-image: none;
+  margin-top: 50px;
+  transform: scale(1.1);
+}
+
+/*                     button css              */
 .btn {
   padding: 10px 24px;
   border-radius: 41px;
@@ -80,98 +89,103 @@ nav div h3 {
   letter-spacing: 0px;
   text-align: left;
 }
-.logo{
-    margin-top: 50px;
-    display: grid;
-    grid-template-columns: repeat(7 , 1fr);
-    padding: 0px 25px;
+.logo {
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  padding: 0px 25px;
 }
 
 /* product css start from here  */
-h2{
-    margin-top: 100px;
-    text-align: center; 
-    justify-content: center;
-    color: rgb(58, 58, 58);
-    font-size: 2rem;
-    font-weight: 600;
-    line-height: 70px;
-    letter-spacing: 0px;
+h2 {
+  margin-top: 100px;
+  text-align: center;
+  justify-content: center;
+  color: rgb(58, 58, 58);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 70px;
+  letter-spacing: 0px;
 }
-.product{
-    margin: 0px 180px 0px 250px;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 20px;
+.product {
+  margin: 0px 180px 0px 250px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
-.card{
-    border-radius: 16px;
-    padding: 20px;
-    box-shadow: 10px 15px 15px rgba(37, 37, 37, 0.1);
-    transition: 1.5s;
+.card {
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 10px 15px 15px rgba(37, 37, 37, 0.1);
+  transition: 1.5s;
 }
-.card:hover{
-transform: scale(1.1);
-box-shadow: 20px 20px 30px rgb(216, 199, 166);
-cursor: pointer;
+.card:hover {
+  transform: scale(1.1);
+  box-shadow: 20px 20px 30px rgb(216, 199, 166);
+  cursor: pointer;
 }
-.product h2{
-    margin-top: -20px;
-    color: rgb(24, 25, 31);
-    font-size: 1.8rem;
-    font-weight: 500;
-    text-align: left;
+.product h2 {
+  margin-top: -20px;
+  color: rgb(24, 25, 31);
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-align: left;
 }
-.product h4{
-    color: rgba(0, 0, 0, 0.87);
-    font-size: 1.6rem;
-    font-weight: 400;
-    text-align: left;
-    margin-top: -20px;
+.product h4 {
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-align: left;
+  margin-top: -20px;
 }
-.product p{
-color: rgb(120, 120, 133);
-font-size: 1rem;
-font-weight: 700;
-text-align: left;
-margin-top: -20px;
+.product p {
+  color: rgb(120, 120, 133);
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  margin-top: -20px;
 }
-.see_more{
-  border: none; background-color: antiquewhite;color: brown; padding: 10px 15px; cursor: pointer; border-radius: 25px;
+.see_more {
+  border: none;
+  background-color: antiquewhite;
+  color: brown;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 25px;
   font-weight: 500;
   font-size: 1.5rem;
   transition: 2s;
 }
-.see_more:hover{
+.see_more:hover {
   background-color: aliceblue;
   color: rgb(224, 44, 109);
   transform: scale(1.1);
 }
 
-
-@media screen and (max-width:576px) {
-  .mobile_i{
+@media screen and (max-width: 576px) {
+  .mobile_i {
     color: rgb(58, 58, 58);
   }
-  .mobile_i_{
-    color:rgb(122, 83, 57);
+  .mobile_i_ {
+    color: rgb(122, 83, 57);
   }
- .header-container{
+  .header-container {
     flex-direction: column;
   }
-  .logo{
-    grid-template-columns: repeat(3 , 1fr);
+  .logo {
+    grid-template-columns: repeat(3, 1fr);
   }
-  nav{
+  nav {
     margin: 10px 10px 10px 10px;
   }
-  .product , header{
+  .product,
+  header {
     margin: 0px 10px 0px 10px;
   }
-  .product{
-    grid-template-columns: repeat(1 ,1fr);
+  .product {
+    grid-template-columns: repeat(1, 1fr);
   }
-  .header-img{
+  .header-img {
     width: 100%;
     background-image: none;
     padding: 0px;
