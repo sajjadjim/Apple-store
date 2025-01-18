@@ -163,91 +163,88 @@ h2 {
 }
 
 /* botton info */
-.bottom_info{
+.bottom_info {
   margin: 20px 250px;
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
 }
-.bottom_info img{
+.bottom_info img {
   border-radius: 8px;
 }
-.bottom_info h1{
+.bottom_info h1 {
   color: rgb(10, 8, 38);
-font-family: Poppins;
-font-size: 38px;
-font-weight: 700;
-line-height: 60px;
-letter-spacing: 0px;
-text-align: left;
+  font-family: Poppins;
+  font-size: 38px;
+  font-weight: 700;
+  line-height: 60px;
+  letter-spacing: 0px;
+  text-align: left;
 }
-.bottom_info p{
+.bottom_info p {
   color: rgb(108, 108, 108);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 700;
-line-height: 28px;
-letter-spacing: 0px;
-text-align: left;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
 }
-.bottom_btn{
+.bottom_btn {
   padding: 10px 25px;
   background-color: rgb(224, 44, 109);
-border: none;
-margin-top: 16px;
+  border: none;
+  margin-top: 16px;
 }
-.bottom_btn a{
+.bottom_btn a {
   text-decoration: none;
   color: rgb(255, 255, 255);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0px;
-text-align: left;
-
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
 }
 
 /* footer css start from here */
-footer{
+footer {
   margin-top: 150px;
-background: rgb(10, 8, 37);
-padding: 30px 200px 20px 200px;
+  background: rgb(10, 8, 37);
+  padding: 30px 200px 20px 200px;
 }
-.footer_container{
+.footer_container {
   justify-content: center;
   justify-items: center;
   align-items: center;
 }
-.footer_container h3{
+.footer_container h3 {
   display: flex;
   justify-content: center;
   color: rgb(255, 255, 255);
-font-family: Poppins;
-font-size: 1.5rem;
-font-weight: 700;
+  font-family: Poppins;
+  font-size: 1.5rem;
+  font-weight: 700;
 }
-.footer_container p{
+.footer_container p {
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
   color: rgb(217, 219, 225);
-font-size: .9rem;
-font-weight: 500;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
-.social_media{
+.social_media {
   margin-top: -1px;
 }
-.social_media ul{
+.social_media ul {
   display: flex;
-list-style: none;
-
+  list-style: none;
 }
-.social_media ul li{
-margin-right: 25px;
-} 
-
+.social_media ul li {
+  margin-right: 25px;
+}
 
 @media screen and (max-width: 576px) {
   .mobile_i {
@@ -269,13 +266,13 @@ margin-right: 25px;
   header {
     margin: 0px 10px 0px 10px;
   }
-  .nav_list{
+  .nav_list {
     flex-direction: column;
   }
-  .nav_list li{
+  .nav_list li {
     margin-top: 10px;
   }
-  .product{
+  .product {
     grid-template-columns: repeat(1, 1fr);
   }
   .header-img {
@@ -285,22 +282,77 @@ margin-right: 25px;
     margin-top: 20px;
     margin-left: 0px;
   }
-  .bottom_info{
+  .bottom_info {
     grid-template-columns: repeat(1, 1fr);
     margin: 10px;
   }
-  .bottom_info img{
+  .bottom_info img {
     width: 100%;
   }
-  .bottom_btn{
+  .bottom_btn {
     position: relative;
-    left: 150px;
+    left: 100px;
     border-radius: 6px;
   }
-  footer{
+  footer {
     margin-top: 70px;
-  background: rgb(10, 8, 37);
-  padding: 30px 20px 20px 20px;
+    background: rgb(10, 8, 37);
+    padding: 30px 20px 20px 20px;
   }
+}
 
+@media screen and (min-width: 700px) and (max-width: 976px) {
+  .mobile_i {
+    color: rgb(58, 58, 58);
+  }
+  .mobile_i_ {
+    color: rgb(122, 83, 57);
+  }
+  .header-container {
+    flex-direction: column;
+  }
+  .logo {
+    grid-template-columns: repeat(3, 1fr);
+    position: relative;
+    left: 2rem;
+  }
+  nav {
+    margin: 10px 10px 10px 10px;
+  }
+  .product,
+  header {
+    margin: 0px 10px 0px 10px;
+  }
+  .nav_list li {
+    margin-top: 10px;
+  }
+  .product {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .header-img {
+    width: 100%;
+    position: relative;
+    left: 150px;
+    background-image: none;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .bottom_info {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 10px;
+  }
+  .bottom_info img {
+    width: 100%;
+  }
+  .bottom_btn {
+    position: relative;
+    left: 390px;
+    border-radius: 6px;
+  }
+  footer {
+    margin-top: 70px;
+    background: rgb(10, 8, 37);
+    padding: 30px 20px 20px 20px;
+  }
 }
