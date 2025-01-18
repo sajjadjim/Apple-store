@@ -136,6 +136,12 @@ margin-top: -20px;
 
 
 @media screen and (max-width:576px) {
+  .mobile_i{
+    color: rgb(58, 58, 58);
+  }
+  .mobile_i_{
+    color:rgb(122, 83, 57);
+  }
  .header-container{
     flex-direction: column;
   }
