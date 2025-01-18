@@ -133,3 +133,29 @@ font-weight: 700;
 text-align: left;
 margin-top: -20px;
 }
+
+
+@media screen and (max-width:576px) {
+ .header-container{
+    flex-direction: column;
+  }
+  .logo{
+    grid-template-columns: repeat(3 , 1fr);
+  }
+  nav{
+    margin: 10px 10px 10px 10px;
+  }
+  .product , header{
+    margin: 0px 10px 0px 10px;
+  }
+  .product{
+    grid-template-columns: repeat(1 ,1fr);
+  }
+  .header-img{
+    width: 100%;
+    background-image: none;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+}
