@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: poppins;
+}
+
+/* header css style */
+header {
+margin: 30px 150px 20px 150px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav div h3 {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1.79rem;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0px;
+}
+.nav_list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.nav_list li {
+  margin-right: 20px;
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+
+  text-align: left;
+}
+/*  Header contain start from here */
+.header-container {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.header-container h1 {
+  color: rgb(58, 58, 58);
+  font-family: Poppins;
+  font-size: 52px;
+  font-weight: 700;
+  line-height: 70px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.header-container p {
+  color: rgb(58, 58, 58);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 1rem;
+}
+.header-img {
+  margin-left: 200px;
+  background-image: url("/images/circle.jpg");
+  padding: 0px 70px;
+}
+.btn {
+  padding: 10px 24px;
+  border-radius: 41px;
+  background: rgb(224, 44, 109);
+  border: none;
+}
+.btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.logo{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    padding: 0px 25px;
+}
+
+/* product css start from here  */
+h2{
+    margin-top: 100px;
+    text-align: center; 
+    justify-content: center;
+    color: rgb(58, 58, 58);
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 70px;
+    letter-spacing: 0px;
+}
+.product{
+    margin: 0px 180px 0px 250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    /* border: 1px solid black; */
+}
+.card{
+    border-radius: 16px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    box-shadow: 10px 15px 15px rgba(37, 37, 37, 0.1);
+}
+
+.product h2{
+    margin-top: -20px;
+    color: rgb(24, 25, 31);
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: left;
+}
+.product h4{
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 1.6rem;
+    font-weight: 400;
+    text-align: left;
+    margin-top: -20px;
+}
+.product p{
+color: rgb(120, 120, 133);
+font-size: 1rem;
+font-weight: 700;
+text-align: left;
+margin-top: -20px;
+}
