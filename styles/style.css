@@ -15,7 +15,7 @@ nav {
 nav div h3 {
   color: rgb(58, 58, 58);
   font-family: Poppins;
-  font-size: 1.79rem;
+  font-size: 2.1rem;
   font-weight: 700;
   line-height: 36px;
   letter-spacing: 0px;
@@ -29,7 +29,7 @@ nav div h3 {
   margin-right: 20px;
   color: rgb(58, 58, 58);
   font-family: Poppins;
-  font-size: 1rem;
+  font-size: 1.3rem;
   font-weight: 600;
   line-height: 24px;
 
@@ -103,15 +103,18 @@ h2{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
-    /* border: 1px solid black; */
 }
 .card{
     border-radius: 16px;
-    padding: 10px;
-    /* border: 1px solid black; */
+    padding: 20px;
     box-shadow: 10px 15px 15px rgba(37, 37, 37, 0.1);
+    transition: 1.5s;
 }
-
+.card:hover{
+transform: scale(1.1);
+box-shadow: 20px 20px 30px rgb(216, 199, 166);
+cursor: pointer;
+}
 .product h2{
     margin-top: -20px;
     color: rgb(24, 25, 31);
@@ -132,6 +135,17 @@ font-size: 1rem;
 font-weight: 700;
 text-align: left;
 margin-top: -20px;
+}
+.see_more{
+  border: none; background-color: antiquewhite;color: brown; padding: 10px 15px; cursor: pointer; border-radius: 25px;
+  font-weight: 500;
+  font-size: 1.5rem;
+  transition: 2s;
+}
+.see_more:hover{
+  background-color: aliceblue;
+  color: rgb(224, 44, 109);
+  transform: scale(1.1);
 }
 
 
