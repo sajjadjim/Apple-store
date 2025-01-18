@@ -269,7 +269,13 @@ margin-right: 25px;
   header {
     margin: 0px 10px 0px 10px;
   }
-  .product {
+  .nav_list{
+    flex-direction: column;
+  }
+  .nav_list li{
+    margin-top: 10px;
+  }
+  .product{
     grid-template-columns: repeat(1, 1fr);
   }
   .header-img {
